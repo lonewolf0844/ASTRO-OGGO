@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  display: inline-block;
+}
+
+body {
+  font-family: $font;
+	font-weight: $weight;
+	color: $brand;
+	font-size: $text-fz;
+}
+
+.container {
+	width: $container;
+  padding: 0px 25px;
+  margin: 0 auto;
+}

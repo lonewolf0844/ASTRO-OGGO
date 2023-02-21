@@ -1,0 +1,95 @@
+<header class="header">
+  <div class="container wrapper">
+    <nav class="navbar">
+      <ul class="menu">
+        <li class="menu-items">
+          <a href="" class="menu-link">Контрагентам</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link">Дизайнерам</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link">Вакансии</a>
+        </li>
+      </ul>
+      <div class="img">
+        <img
+          src="https://icons.veryicon.com/png/o/miscellaneous/maxberry_icon_font/logo-27.png"
+          alt=""
+        />
+      </div>
+
+      <ul class="menu">
+        <li class="menu-items">
+          <a href="" class="menu-link"> Поиск</a>
+        </li>
+        <li class="menu-items">
+          <a href="" class="menu-link"> Вход/Регистрация</a>
+        </li>
+        <div class="img-people">
+          <img
+            src="https://www.freeiconspng.com/thumbs/person-icon/clipart--person-icon--cliparts-15.png"
+            alt=""
+          />
+        </div>
+        <div class="love">
+          <img src="https://svgsilh.com/svg_v2/24037.svg" alt="" />
+        </div>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style lang="scss">
+  .header {
+    background: #482828;
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img {
+        width: 216px;
+				margin: 0px 50px;
+
+        img {
+          width: 100%;
+        }
+      }
+      .img-people {
+        width: 16px;
+        img {
+          width: 100%;
+        }
+      }
+      .love {
+        width: 16px;
+        img {
+          width: 100%;
+        }
+      }
+      .menu {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+
+        .menu-items {
+          .menu-link {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            letter-spacing: 1px;
+            color: #fff;
+						font-family: "Montserrat";
+			
+            transition: 0.3s;
+            &:hover {
+              color: #000000;
+							font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+</style>
